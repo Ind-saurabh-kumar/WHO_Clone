@@ -1,0 +1,1350 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+/* ****************** Head nav css Strts ***************** */
+.headNav{
+    width: 100%;
+    height:50px;
+    /* border:2px solid red; */
+    background-color: #274375;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navheadCont{
+    height: inherit;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 5px solid brown;
+}
+
+.leftCont{
+    height: inherit;
+    width:15%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.global{
+    height: inherit;
+    width: 40%;
+    /* border: 2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.global a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.global:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+.region{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.region a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.region:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+
+
+.region i{
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 8px;
+    
+    
+    
+}
+
+.rightCont{
+    height: inherit;
+    width:25%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    height: inherit;
+    width: 20%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+.search i{
+    color: white;
+    font-size: 20px;
+}
+
+.language{
+    height: inherit;
+    width: 75%;
+    /* border:2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.language:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+.language i{
+    padding-right: 20px;
+    font-size: 25px;
+    padding-top:5px;
+    color: white;
+}
+
+.language a{
+    font-size: 20px;
+    padding-left:5px;
+    text-decoration: none;
+    color: white;
+
+}
+/* ****************** Head nav css Ends ***************** */
+
+/* ****************** Head logo css Strts ***************** */
+.navLogo{
+    width: 100%;
+    height: 120px;
+    /* border: 2px solid greenyellow; */
+    /* background-color: aqua; */
+    padding-left: 35px;
+
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+
+.logo{
+    
+    font-size: 80px;
+    width: 220px;
+    fill: rgb(22, 70, 227);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    
+
+}
+
+/* ****************** Head logo css Ends ***************** */
+
+/* ****************** navBar css Strts ***************** */
+.navBar{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: #274375;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:sticky;
+    top:10;
+
+
+
+    
+}
+nav{
+    position: sticky;
+}
+
+
+.navCont{
+    height: inherit;
+    width: 95%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navCont {
+    font-size:25px;
+    list-style: none;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap:40px;
+
+}
+
+.navleftdiv{
+    height: inherit;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item1{
+    height: inherit;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item1 a i{
+    color: white;
+}
+
+.item1:hover{
+    background-color: blue;
+}
+
+.item2 a{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+}
+
+.item2 a i{
+    padding-top: 9px;
+    padding-left: 5px;
+    color: white;
+}
+
+.item2{
+    height: inherit;
+    width: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.item2:hover{
+    background-color: blue;
+}
+
+.items{
+    height: inherit;
+    width: 150px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items h3 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.items:hover{
+    background-color: blue;
+
+}
+
+.items a i{
+    padding-top:9px;
+    padding-left:5px;
+    color: white;
+    
+}
+
+
+/* ****************** navBar css End ***************** */
+
+
+/* ****************** BodyImg css Starts ***************** */
+
+.bodyImg{
+    height: 650px;
+    width: 100%;
+    background-image: url(./images/img/children-playing-in-the-water.tmb-1920v_1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.mainHeading{
+    font-size: 40px;
+    background-color: rgb(27, 27, 108);
+    padding: 10px;
+    color: white;
+}
+
+.mainSubHeading{
+    font-size: 20px;
+    background-color: rgb(25, 25, 91);
+    padding: 5px;
+    color: white;
+}
+
+.cornerTxt{
+    height: 30px;
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 0px;
+
+}
+
+.cornerTxt div{
+    height: inherit;
+    width: 13%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(23, 23, 112);
+}
+
+.cornerTxt div a{
+
+    text-decoration:none;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color: white;
+    
+}
+.cornerTxt div i{
+    color:white;
+}
+
+/* ****************** BodyImg css End ***************** */
+
+
+
+
+/* ****************** BodyCards1 css Starts ***************** */
+
+.bodyCards1{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyCard1Cont{
+    height: 500px;
+    width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bodyCard1Heading{
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.leftData{
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.rightData{
+    padding-top: 5px;
+}
+
+.rightData a i{
+   
+}
+
+.rightData a{
+    font-size: 30px;
+    color: rgb(24, 28, 43);
+    text-decoration: none;
+}
+
+
+.bodyCard1body{
+    height: 100%;
+    width: 98%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1Body{
+    height: 97%;
+    width: 23%;
+    background-color: rgba(238, 238, 238, 0.772);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card1Body:hover{
+    border: 2px solid blue;
+    background-color:rgba(225, 223, 223, 0.911) ;
+
+}
+
+.cardImg{
+    height: 55%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.cardImg img{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.cardTxt{
+    height:45%;
+    width:100%;
+    /* border:2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+
+}
+
+.cardTxt p{
+    font-size: 15px;
+    color: rgb(118, 119, 120);
+    font-weight: lighter;
+    padding: 15px 10px 10px 10px;
+}
+
+.cardTxt h4{
+    font-size:17px;
+    padding:10px;
+}
+
+
+
+
+
+
+/* ****************** BodyCards1 css End ***************** */
+
+
+
+
+/* ****************** BodyCards2 css Starts ***************** */
+
+.bodyCard2{
+
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bodyCard2Cont{
+    height: 500px;
+    width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bodyCard2Heading{
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bodyCard2body{
+
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card2Body{
+
+    height: 97%;
+    width: 23%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card2BodyHeading{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+.card2BodyHeading h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: Black;
+}
+
+
+.card2BodyTxt{
+
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid rgb(26, 0, 128); */
+    background-color: rgba(225, 226, 227, 0.491);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card2BodyTxt:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: rgb(213, 214, 214);
+    
+}
+
+.card2BodyTxt:hover h5{
+    border: 2px solid rgb(29, 46, 225);
+}
+
+.card2BTxtImg{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.card2BTxtImg img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.card2BTxtHead{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2BTxtHead a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/* ****************** BodyCards2 css End ***************** */
+
+/* ****************** BodyCards3 css Starts ***************** */
+
+.bodyCard3{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid green; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyCard3Cont{
+    height: 400px;
+    width: 95%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card3Card{
+    height: inherit;
+    width: 32%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card3heading{
+
+    height: 13%;
+    width: 100%;
+    border-bottom: 2px solid rgb(190, 185, 185);
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.card3heading h3{
+    font-size: 30px;
+    color: black;
+    
+}
+
+.card3Body{
+
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: rgba(189, 190, 191, 0.441);
+
+}
+.card3Body:hover{
+    background-color: rgba(189, 190, 191, 0.829);
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.card3Body:hover h3{
+    border: 2px solid blue;
+}
+
+.card3Img{
+    height: 75%;
+    width: 100%;
+    
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3Img img{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.card3Txt{
+    padding:25px 0px 0px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.card3Txt a{
+   font-size: 20px;
+   text-decoration: none;
+   color: black;
+
+}
+
+
+
+/* card 4 stats */
+
+
+
+.card4Body{
+
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: rgba(189, 190, 191, 0.441);
+
+}
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43%;
+    width: 30.5%;
+    background-color: rgba(208, 40, 40, 0); /* Initially transparent */
+    transition: background-color 0.3s ease;
+}
+
+.card4Body:hover .overlay {
+    background-color: rgba(191, 186, 186, 0.272); /* White overlay on hover */
+}
+
+
+
+
+
+
+/* card 4 ends */
+
+
+
+
+/* section 5 Starts */
+
+.section5{
+    height: 1200px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec5Cont{
+    height: 1150px;
+    width: 95%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sec5Leftd{
+
+    height: inherit;
+    width: 32%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.bodyCard5Heading{
+    height:50px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.bodyCard5Heading .leftData{
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+.card5Txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 50px;
+}
+.card5Txt a, h3{
+    font-size: 20px;
+    color: Black;
+    text-decoration: none;
+    padding-top:10px;
+    
+}
+
+.bodyCard5Heading .rightData{
+    padding-bottom: 30px;
+    
+}
+
+.bodyCard5Heading h3{
+    font-size: 25px;
+}
+
+.bodyCard5Heading .rightData a{
+    font-size: 25px;
+    color: rgb(24, 28, 43);
+    text-decoration: none;
+}
+
+.card5data{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card5Card{
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
+
+.card4Body{
+
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: rgba(189, 190, 191, 0.441);
+
+}
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43%;
+    width: 30.5%;
+    background-color: rgba(208, 40, 40, 0); /* Initially transparent */
+    transition: background-color 0.3s ease;
+}
+
+.card4Body:hover .overlay {
+    background-color: rgba(191, 186, 186, 0.272); /* White overlay on hover */
+}
+
+
+
+
+/* section 5 starts */
+
+.card5Card{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    
+    margin-top:20px;
+}
+
+
+
+
+
+.sec5Rightd{
+
+    height: inherit;
+    width: 55%;
+    /* border: 2px solid yellow; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.sec5Rightd .bodyCard6Heading{
+
+    height:50px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.sec5Rightd .leftData{
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.sec5Rightd .rightData{
+    padding-bottom: 30px;
+    
+}
+
+.bodyCard6Heading h3{
+    font-size: 25px;
+}
+
+.sec5Rightd .rightData a{
+    font-size: 25px;
+    color: rgb(24, 28, 43);
+    text-decoration: none;
+}
+
+
+/* card 6 starts */
+
+.events{
+    height: 90%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* background-color: #0a337e; */
+}
+
+.eventCard{
+    height: 19%;
+    width: 100%;
+    /* border: 3px solid green; */
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventCard:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+
+.eventImg{
+    height: 195px;
+    width: 195px;
+    /* border:2px solid red; */
+}
+
+.eventImg img{
+    height: 100%;
+    width: 100%;
+}
+
+.eventInfo{
+    height: 195px;
+    width:590px;
+    /* border: 2px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+
+    padding-left:20px;
+}
+
+.date{
+    height: 20px;
+    width: 100px;
+    
+}
+
+.data{
+    height: 20px;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.date2{
+    height:20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************** BodyCards3 css End ***************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************  Footer Starts Here **************************** */
+
+
+
+footer{
+    height: 350px;
+    width: 100%;
+    /* border: 3px solid red; */
+    background-color: #0c2b64;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.footCont{
+    height: 300px;
+    width: 90%;
+    margin-top:70px;
+    /* border:2px solid rgb(14, 13, 13); */
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.cards{
+    height: inherit;
+    width: 20%;
+    /* border:2px solid yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap:25px;
+}
+
+
+.cardHead h1 a{
+
+    font-size: 35px;
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.cardHead h1 a:hover{
+    background-color: rgb(26, 26, 192);
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+    
+}
+
+
+
+.cardBody ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap:16px;
+    list-style: none;
+
+}
+
+.cardBody ul li a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    padding:5px
+}
+
+.cardBody ul li a:hover{
+    background-color: rgb(26, 26, 186);
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+    
+}
+
+
+.contactBtn{
+    height: 40px;
+    width:220px;
+    color:white; 
+    background-color: #2a4577;
+    border-radius: 5px;  
+    
+}
+
+.contactBtn:hover{
+    cursor: pointer;
+    border:3px solid rgb(17, 17, 173);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.contactBtn h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 7px;
+
+}
+
+/* ************ Logo footer starts ******************* */
+
+
+.footLogo{
+    height: 150px;
+    width:100%;
+    /* border: 2px solid red; */
+    background-color: #0c2b64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLogoSVG{
+    height:150px;
+    width:50%;
+    /* border:2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   
+}
+
+.footLogoSVG svg{
+    fill: white;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}
+
+.footLogoSVG svg:hover{
+    background-color: blue;
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+}
+
+
+
+
+
+
+
+
+/* ****** foot last ***************** */
+
+.footLast{
+    height: 90px;
+    width:100%;
+    /* border: 2px solid red; */
+    background-color: #0a337e;
+
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footLastLeft{
+    height: inherit;
+    margin-left:40px;
+    width:10%;
+    /* border: 2px solid rgb(23, 11, 11); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLastLeft h2 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding:5px;
+}
+
+.footLastLeft h2 a:hover{
+    background-color: blue;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+}
+
+
+.footLastCenter{
+    height: inherit;
+    width:50%;
+    /* border: 2px solid rgb(32, 25, 25); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.footLastCenter i{
+    font-size: 25px;
+    color: white;
+    padding:5px;
+}
+
+.footLastCenter i:hover{
+
+    background-color: blue;
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+
+}
+
+
+
+
+.footLastEnd{
+    height: inherit;
+    width:10%;
+    margin-right:40px;
+    /* border: 2px solid rgb(18, 14, 14); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footLastEnd h2 {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.footLastEnd h2 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding:5px;
+}
+
+.footLastEnd h2 a:hover{
+    background-color: blue;
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+}
+
+
+
+
+
+
